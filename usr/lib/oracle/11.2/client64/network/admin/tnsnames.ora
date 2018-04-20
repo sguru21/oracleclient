@@ -1,0 +1,10 @@
+INMSDB =
+    (DESCRIPTION =
+      (ADDRESS_LIST =
+        (ADDRESS = (PROTOCOL = TCP)(HOST = 172.16.1.136)(PORT = 1522))
+      )
+      (CONNECT_DATA =
+        (SERVICE_NAME = INMSITDB)
+      )
+    )
+
