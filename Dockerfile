@@ -2,7 +2,6 @@ FROM centos
 
 RUN yum -y update && yum install -y libXrender && yum install -y libXext && yum install -y fontconfig && yum install -y freetype && yum install -y libaio && yum install -y zip && yum install -y unzip  && yum install -y tigervnc-server && yum install -y xterm
 
-RUN yum install -y vim
 
 #Oracle instant client include files copying into docker image
 ADD /usr/include /usr/include
